@@ -156,7 +156,7 @@ nav ul li {
 }
 
 nav ul li a {
-  transition: color 0.3s;
+  transition: color 0.2s;
   position: relative;
 }
 
@@ -238,7 +238,7 @@ nav .icon-close {
 nav.show div.icon-close {
   visibility: visible;
   opacity: 1;
-  top: -1.5rem;
+  top: 1.5rem;
 }
 
 /*------------- Home ----------------*/
