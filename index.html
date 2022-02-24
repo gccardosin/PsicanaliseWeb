@@ -74,7 +74,7 @@
 
     <!--################## About #######################-->
       <section class="section" id="about">
-        <div class="container grid">Sobre</div>
+        <div class="container grid"></div>
         <div class="image">
           <img
             src="https://zenklub.com.br/blog/wp-content/uploads/2018/04/pexels-cottonbro-4101143-1-1-scaled.jpg"
@@ -220,11 +220,13 @@
         <div class="text">
           <h2 class="title">Entre em contato comigo</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis iure unde, illo amet fugiat pariatur porro </p>
-          <a href="#"><i class="icon-whatsapp"></i> Entrar em contato</a>
+          <a class="button"
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=+5527981134383&text=Qual sua duvida"><i class="icon-whatsapp"></i> Entrar em contato</a>
         </div>
       
       <div class="links">
-        <ul>
+        <ul class="grid">
           <li><i class="icon-phone"></i>2798845687</li>
           <li><i class="icon-map-pin"></i>R. Lindenberg</li>
           <li><i class="icon-mail"></i>Email</li>
@@ -239,6 +241,9 @@
     </main>
     <!-- Swiper -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- Main Js -->
     <script src="main.js"></script>
